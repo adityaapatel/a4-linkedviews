@@ -5,7 +5,7 @@
 ---
 
 ## 🎥 Live Demo
-[View Visualization](https://YOUR_GH_USERNAME.github.io/a4-linkedviews/)
+[View Visualization](https://adityaapatel.github.io/a4-linkedviews/)
 
 ---
 
