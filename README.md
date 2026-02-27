@@ -1,4 +1,5 @@
 # A4 – Brushing & Linking (Drake Maye, 2025 season)
+a4-adityaapatel-Aditya-Patel
 
 ## Live Demo
 https://YOUR_GH_USERNAME.github.io/a4-linkedviews/
@@ -11,10 +12,11 @@ Data is fetched from ESPN's public (undocumented) API as JSON and saved into thi
 `data/drake_maye_2025_gamelog.csv`.
 
 ## Views + Interactions (Linked Views)
-**View A (Line chart):** QBR by week  
+
+**A (Line chart):** QBR by week  
 - Brush a week range to filter which games are visible in the scatterplot.
 
-**View B (Scatterplot):** Passing yards vs passing TD by game  
+**B (Scatterplot):** Passing yards vs passing TD by game  
 - Brush games to highlight the corresponding weeks in the line chart.
 
 Double-click either chart to clear its brush.
@@ -27,16 +29,3 @@ Double-click either chart to clear its brush.
 ## Design Achievements
 - Clear encodings, axes, labels
 - Simple instructions + reset behavior
-
-## How to run (fast)
-
-From repo root:
-
-```bash
-npm run fetch
-npm run serve
-```
-
-Open: http://localhost:8000
-
-Then push to GitHub + enable Pages.

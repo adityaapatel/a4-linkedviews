@@ -16,16 +16,30 @@
 
   <div class="wrap">
     <div class="panel">
-      <h2>QBR by Week (Brush to filter)</h2>
+      <h2>QBR by Week (brush to filter)</h2>
       <div id="line"></div>
     </div>
 
     <div class="panel">
-      <h2>Passing Yards vs TD (Brush to highlight)</h2>
+      <h2>Passing Yards vs TD (brrush to highlight)</h2>
       <div id="scatter"></div>
     </div>
   </div>
+  
+<section class="writeup">
+  <h2>About the Vis</h2>
+  <div >
+    <p><b>Vision:</b> Analyze Drake Maye's passing tendencies by examining the relationship between throw depth (air yards) and play efficiency (EPA). Two linked views enable exploration from different analytical angles.</p>
 
+    <p><b>Scatter → Histogram:</b> Brush a region in the scatterplot to filter the EPA histogram. This reveals the efficiency distribution for specific throw depths — e.g., "When Drake throws 15+ air yards, what does the EPA distribution look like?"</p>
+
+    <p><b>Histogram → Scatter:</b> Brush an EPA range in the histogram to highlight corresponding dots in the scatterplot. This shows where high-EPA or low-EPA plays cluster in terms of air yards and completion.</p>
+
+    <p><b>Key findings:</b> Deep throws (20+ air yards) often have higher variance — big positive EPA on completions but more negative outcomes on misses. Short throws (0–8 air yards) are more consistent but less likely to produce very high EPA. Intermediate throws (10–18 air yards) can show a strong efficiency zone when completed.</p>
+
+    <p><b>Technical:</b> Built with D3.js. two independent SVG views with shared state. d3.brush() for 2D selection and d3.brushX() for range selection. Dynamic bin recalculation and coordinated highlighting.</p>
+  </div>
+</section>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="main.js"></script>
 </body>
