@@ -1,4 +1,6 @@
 OPTIONAL OPTIONAL OPTIONAL OPTIONAL OPTIONAL Assignment 4 - Brushing and Linking
+
+Na
 ===
 
 The primary aim of this assignment is to showcase your **individual** skills at supporting interactive experiences with visualizations.
@@ -43,14 +45,6 @@ Requirements
 
 4. Submit a pull request and name it as follow
 ```
-a4-your Gh username-your first name-your lastname
+
 
 ```
-
-Extra Links
----
-
-- https://observablehq.com/@philippkoytek/d3-part-3-brushing-and-linking
-- https://github.com/d3/d3-brush
-- https://observablehq.com/collection/@d3/d3-brush
-- https://observablehq.com/@d3/focus-context?collection=@d3/d3-brush
