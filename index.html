@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A4 Linked Views — Drake Maye (2025)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Drake Maye (2025 season): Linked Views</h1>
+  <p class="help">
+    Left: brush a week range to filter games in the scatter.
+    Right: brush games in the scatter to highlight weeks in the line.
+    Double-click a chart to clear its brush.
+  </p>
+
+  <div class="wrap">
+    <div class="panel">
+      <h2>QBR by Week (Brush to filter)</h2>
+      <div id="line"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Passing Yards vs TD (Brush to highlight)</h2>
+      <div id="scatter"></div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

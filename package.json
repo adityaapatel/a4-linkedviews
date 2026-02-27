@@ -1,0 +1,9 @@
+{
+  "name": "a4-linkedviews-drake-maye",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch_data.mjs",
+    "serve": "python -m http.server 8000"
+  }
+}

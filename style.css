@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; margin: 16px; }
+h1 { margin: 0 0 6px 0; }
+.help { margin: 0 0 14px 0; color: #333; max-width: 1000px; }
+
+.wrap { display: flex; gap: 16px; flex-wrap: wrap; }
+.panel { border: 1px solid #ddd; padding: 10px; background: #fff; }
+
+svg { width: 520px; height: 360px; }
+
+.brush .selection { fill: #999; fill-opacity: 0.2; stroke: #444; }
+
+.dot { opacity: 0.85; }
+.dot.faded { opacity: 0.12; }
+
+.line { fill: none; stroke: #1f77b4; stroke-width: 2; }
+.weekpt { fill: #1f77b4; opacity: 0.9; }
+.weekpt.faded { opacity: 0.15; }
